@@ -1,0 +1,176 @@
+:root {
+    font-size: 62.5%; /*16px-1em-100%*/
+}
+
+#body {
+    background: #f96000;
+    width: 100%;
+    height: 100%;
+}
+
+#body #fondo {
+    background: url("../assets/img/piebanner.png") no-repeat;
+    background-position: bottom;
+    height: 100%;
+}
+
+#body #fondo #bloque {
+    position: absolute;
+    align-items: top;
+    /* justify-content: space; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wow{
+    width: 50%;
+}
+
+#wow img {
+    height: 27rem;
+    padding-top: 1rem;
+    padding-left: 12rem;
+}
+
+#formulario{
+    width: 50%;
+}
+
+#formulario img {
+    height: 7rem;
+    padding-top: .5rem;
+    padding-left: 7rem;
+}
+
+#formulario #contenedor {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#formulario #contenedor .contenido {
+    width: 100%;
+    /* height: 1rem; */
+    display: flex;
+    padding-left: 8rem;
+}
+
+#formulario #contenedor .contenido div {
+    /* height: 2rem; */
+    /* background: white; */
+    width: 100%;
+    /* height: 2rem; */
+    padding-left: .5rem;
+    padding-bottom: 0rem;
+    border-color: white;
+}
+
+#formulario #contenedor .contenido div input, select {
+    width:180px;
+	padding:1px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+    margin:8px 0;
+    height: 1.2rem;
+	display:inline-block;
+    /* background: white;
+    border-radius: .5rem;
+    height: 1.2rem;
+    border-color: white;
+    color: -internal-light-white(white, white); */
+}
+
+#formulario #contenedor .contenido div select {
+    height: 1.45rem;
+}
+
+#formulario #contenedor .contenido div #dni {
+    width: 4.1rem;
+}
+
+#formulario #contenedor .contenido div #doc {
+    width: 6.66rem;
+}
+
+#formulario #contenedor .contenido div .poblacion {
+    width: 8.22rem;
+}
+
+#formulario #contenedor .contenido div #proveedor {
+    width: 25.645rem;
+}
+
+#formulario #contenedor .contenido div #servicio{
+    font-size: .81rem;
+}
+
+#formulario #contenedor .contenido div #pago{
+    width: 12.5rem;
+}
+
+#formulario #contenedor .contenido div, #algun {
+    /* background-color: white; */
+    width: 25rem;
+}
+
+#formulario #contenedor .contenido div #algun {
+    padding-bottom: 0rem;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+    padding-bottom: .5rem;
+}
+
+#formulario #contenedor .contenido div button {
+    margin-top: 2rem;
+    padding-bottom: 0rem;
+    background-color: #701f7e;
+}
+
+/*Abajo*/
+
+#bajo {
+    background: #701f7e;
+    width: 100%;
+    height: 100%;
+}
+
+#bajo1 {
+    margin-top: 33rem;
+    /* padding: 0 15rem; */
+}
+
+#bajo2 {
+    margin-top: 37.4rem;
+}
+
+#porque {
+    height: 8rem;
+    padding-right: 0rem;  
+}
+
+#porque img {
+    padding-left: 3rem;
+    height: 8rem;
+}
+
+#info {
+    padding-left: 6rem;
+}
+
+#info img {
+    height: 10rem;
+    padding-left: 3rem;
+}
+
+.texto p{
+    margin-top: 1.5rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+    color: #e0d3e6;
+}

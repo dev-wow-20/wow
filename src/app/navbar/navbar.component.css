@@ -1,0 +1,13 @@
+.mat-toolbar{
+    background: #701f7e;
+    color: #fff;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+#wsp {
+    width: 20px ;
+    height: 20px;
+}
